@@ -18,7 +18,7 @@ def assign_rooms(array)
     names << array.length [name, index]
   puts"Hello #{name}! You'll be assigned to room #{index} !"
   end
-  
+  names
 end
 
 def printer
