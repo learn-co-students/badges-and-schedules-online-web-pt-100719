@@ -4,7 +4,6 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-
 def batch_badge_creator(array)
   badge_msg = []
   array.each do |badges| 
@@ -13,7 +12,8 @@ def batch_badge_creator(array)
   badge_msg
 end
 
-def assign_rooms
+def assign_rooms(array)
+  rooms = []
   puts"Hello #{}! You'll be assigned to room #{} !"
 end
 
