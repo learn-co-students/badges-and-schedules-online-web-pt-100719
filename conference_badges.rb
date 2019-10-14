@@ -23,9 +23,14 @@ def assign_rooms(speakers)
   names
 end
 
-def printer(badge,room)
-  badge = batch_badge_creator(array)
-  room = assign_rooms(array)
-  room.each do |rooms|
+def printer(speakers)
+  badge = batch_badge_creator(speakers)
+    badge.each do|message|
+    puts message
+  end 
+  room = assign_rooms(speakers)
+  room.each do|rooms|
+    puts rooms
   end
+
 end
