@@ -1,11 +1,11 @@
+require 'pry'
+
 def badge_maker(name)
-  return "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
-  new_arr = []
-  array.each {|name| new_arr << "Hello, my name is #{name}."}
-  new_arr
+def batch_badge_creator(arr)
+  arr.map {|name| "Hello, my name is #{name}."}
 end
 
 def assign_rooms(array)
